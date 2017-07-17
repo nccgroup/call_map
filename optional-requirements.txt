@@ -1,0 +1,5 @@
+# for highlighting
+qtconsole
+
+# for profiling
+profilehooks

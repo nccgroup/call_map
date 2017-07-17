@@ -1,0 +1,4 @@
+*.egg-info
+__pycache__
+.cm_proj
+local-meta/

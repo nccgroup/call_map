@@ -1,0 +1,16 @@
+In this document, "Call Map" refers to the program that was authored by Andrew
+J. Lee under employment of NCC Group PLC during the years 2016 and 2017, and
+bears the name "Call Map". The associated artifacts of "Call Map" are its
+source code, package specification code, user documentation, and developer
+documentation.
+
+Andrew J. Lee, henceforth referred to as THE LICENSOR, is the creator and
+copyright owner of the artwork contained in the file by the name of
+"cruciform-by-andylee.png" and having the SHA-256 value of
+616283e2683bbb52e9ef18ed83d7844630c143a7006a99942cb81795db274d28, henceforth
+referred to as THE ARTWORK. 
+
+THE LICENSOR grants nonexclusive permission to NCC Group PLC to display THE
+ARTWORK in association with the program "Call Map" and to include THE ARTWORK
+while distributing the program "Call Map" and the associated artifacts of the
+program "Call Map". 
