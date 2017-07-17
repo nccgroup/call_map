@@ -5,6 +5,22 @@
 
 .. default-role:: code
 
+About
+======
+
+Call Map is a tool for navigating call graphs in Python, with plans to support
+other languages. Below is a screen shot after running `call_map -m toolz`, then
+clicking on some functions.
+
+.. figure:: docs/UI-clicked-on-function.png
+
+While Call Map is intended to help in gaining a general
+understanding of a codebase, it is also a natural fit for tracing code paths,
+which constitutes an important security concern. Many security issues are
+revealed by finding a code path that connects user input to dangerous coding
+patterns.
+
+
 Installation
 =============
 
