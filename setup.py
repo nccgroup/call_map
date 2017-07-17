@@ -4,7 +4,10 @@ import os.path as osp
 import json as _json
 from pathlib import Path as _Path
 
-requirements = ['jedi>=0.10.0, <=0.10.2', 'toolz', 'pygments', 'qtconsole']
+requirements = [
+        #'jedi>=0.10.0, <=0.10.2',
+        'jedi==0.10.2',
+        'toolz', 'pygments', 'qtconsole']
 
 # If PyQt5 was installed using conda, pip will not recognize it
 # Therefore import it to see if it is installed.
