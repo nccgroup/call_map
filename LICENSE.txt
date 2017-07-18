@@ -1,5 +1,12 @@
-    In the following, "this program" refers to the source code and associated
-    documentation files. "This program" does not include the icons.
+# Call Map Program License
+
+Copyright (C) 2016-2017 Call Map developers
+
+In the following, "this program" refers to the source code and associated
+documentation files. "This program" does not include the icons.
+
+---
+
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -14,7 +21,10 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+---
 
-    The image assets included in this repository are copyright Andrew J. Lee
-    (C) and separately licensed, as documented in
-    call_map/icons/statement-of-permission.txt.
+# Image Assets License
+
+The image assets included in this repository are copyright Andrew J. Lee
+(C) and separately licensed, as documented in
+call_map/icons/statement-of-permission.txt.
