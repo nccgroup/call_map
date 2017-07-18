@@ -20,6 +20,10 @@ which constitutes an important security concern. Many security issues are
 revealed by finding a code path that connects user input to dangerous coding
 patterns.
 
+See the `blog post`__ for more.
+
+__ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/july/call-map-a-tool-for-navigating-call-graphs-in-python/
+
 
 Installation
 =============
