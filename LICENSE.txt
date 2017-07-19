@@ -1,3 +1,17 @@
+# Jedi License
+
+Some code from the Jedi project is included in modified form in
+
+- call_map/jedi_alt/api_usages.py
+- call_map/jedi_alt/usages.py
+
+This code is dual licensed under the terms of the Jedi License and the
+Call Map Program License.
+
+Jedi is Copyright (C) David Halter and others, see call_map/jedi_alt/AUTHORS.txt.
+Also see call_map/jedi_alt/JEDI_LICENSE.txt for the original Jedi license.
+
+
 # Call Map Program License
 
 Copyright (C) 2016-2017 Call Map developers

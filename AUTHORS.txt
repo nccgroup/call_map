@@ -1,1 +1,8 @@
+# Call Map authors
+
 Andrew J. Lee  @andylee-ncc, @ajylee
+
+
+# Jedi authors
+
+See call_map/jedi_alt/AUTHORS.txt
