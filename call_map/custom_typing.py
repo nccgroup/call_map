@@ -26,6 +26,8 @@ def matches_spec(obj: typing.Any, type_spec: typing.Union[type, TypeSpec, typing
         return type_spec.__matches_spec__(obj)
     elif tz.isiterable(type_spec):
         return any(matches_spec(obj, elt) for elt in type_spec)
+    else:
+        raise TypeError
 
 
 class CheckableOptional(TypeSpec):
