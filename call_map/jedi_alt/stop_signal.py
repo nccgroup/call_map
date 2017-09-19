@@ -1,3 +1,4 @@
+import jedi
 from jedi.evaluate.recursion import ExecutionRecursionDetector
 
 try:
@@ -33,4 +34,6 @@ def poll_and_handle_stop_execution_signal_at_start(function):
 # Monkey patch jedi.
 # The pull request to push this functionality upstream was rejected.
 # See https://github.com/davidhalter/jedi/pull/898
-ExecutionRecursionDetector.push_execution = poll_and_handle_stop_execution_signal_at_start(ExecutionRecursionDetector.push_execution)
+
+if jedi.__version__ == '0.10.2':
+    ExecutionRecursionDetector.push_execution = poll_and_handle_stop_execution_signal_at_start(ExecutionRecursionDetector.push_execution)
