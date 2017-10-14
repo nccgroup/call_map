@@ -15,7 +15,6 @@ from pygments.lexers import PythonLexer
 from types import ModuleType
 from pathlib import Path
 
-#from . import wheel_fix
 from .core import OrganizerNode as ONode, Node
 from .config import get_user_config
 from .cache import read_text_cached
@@ -1118,18 +1117,7 @@ def make_test_node():
 
 
 class MyQApplication(QtWidgets.QApplication):
-
-    def legacy_notify(self, obj: QtCore.QObject, event: QtCore.QEvent):
-        """Fixes scrolling weirdness
-
-        This is a legacy method for `notify` from before PyQt5. It doesn't work
-        with PyQt5.
-
-        """
-        if (event.type() == QtCore.QEvent.Wheel):
-            return wheel_fix.notify_wheel_event(self, obj, event)
-        else:
-            return super().notify(obj, event)
+    pass
 
 
 class MainWidget(QtWidgets.QSplitter):
