@@ -3,9 +3,10 @@ The qt_compatibility module is to make it easy to switch between different Qt/Py
 
 '''
 
+QT_API = 'PySide2'
 
-from PyQt5 import QtCore, QtGui, QtWidgets, Qt
+if QT_API == 'PySide2':
+    from PySide2 import QtCore, QtGui, QtWidgets
 
-# The following monkey patching already occurs when importing
-# qtconsole.pygments_highlighter, however that should not be relied upon.
-QtCore.Signal = QtCore.pyqtSignal
+    Qt = QtWidgets
+    Qt.Qt = QtCore.Qt
