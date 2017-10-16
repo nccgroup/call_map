@@ -1,6 +1,21 @@
 THIS IS A PROPOSED CHANGE TO THE LICENSE! IT IS NOT OFFICIAL YET! SEE EARLIER
 COMMITS FOR THE CURRENT OFFICIAL LICENSE.
 
+
+# Jedi License Terms
+
+Some code from the Jedi project is included in modified form in
+
+- call_map/jedi_alt/api_usages.py
+- call_map/jedi_alt/usages.py
+
+This code is dual licensed under the terms of the original Jedi license and the
+Call Map Program License Terms.
+
+Jedi is Copyright (C) David Halter and others, see call_map/jedi_alt/AUTHORS.txt.
+Also see call_map/jedi_alt/JEDI_LICENSE.txt for the original Jedi license.
+
+
 # Call Map Program License
 
 This section pertains to the "Call Map program". The "Call Map program" refers
@@ -8,7 +23,7 @@ to the source code and associated documentation files. "Call Map program" does
 not include the icons.
 
 
-Copyright 2016-2017 Call Map developers
+Copyright (C) 2016-2017 Call Map developers
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
