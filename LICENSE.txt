@@ -1,7 +1,3 @@
-THIS IS A PROPOSED CHANGE TO THE LICENSE! IT IS NOT OFFICIAL YET! SEE EARLIER
-COMMITS FOR THE CURRENT OFFICIAL LICENSE.
-
-
 # Jedi License Terms
 
 Some code from the Jedi project is included in modified form in
