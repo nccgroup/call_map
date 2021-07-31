@@ -1,7 +1,11 @@
 from pathlib import Path
 import json
 import logging
-from typing import List, GenericMeta, Any, Tuple, Optional, Dict, Iterable
+from typing import List, Any, Tuple, Optional, Dict, Iterable
+try:
+    from typing import GenericMeta  # python 3.6
+except ImportError:
+    class GenericMeta(type): pass
 import toolz as tz
 
 from .core import UserScopeSettings, ScopeSettings, CodeElement, CallPosType, Node

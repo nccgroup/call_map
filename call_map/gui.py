@@ -408,7 +408,7 @@ class CallList(QtWidgets.QListWidget):
         for ii, node in enumerate(nodes):
             self.insertCallListItem(start + ii, node)
 
-    @QtCore.Slot(int, object)
+    @QtCore.pyqtSlot(int, object)
     def insertCallListItem(self, ii, node: Node):
         self.nodes_to_items[node] = CallListItem(node)
         self.insertItem(ii, CallListItem(node))
